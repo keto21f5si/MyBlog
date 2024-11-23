@@ -11,9 +11,9 @@ const params = new URLSearchParams(window.location.search);
 const article = params.get("ar");
 
 const articleList = [
-  { title: "Post 1", url: "post1" },
-  { title: "Post 2", url: "post2" },
-  { title: "Post 3", url: "post3" }
+  { title: "Post 1", url: "p1" },
+  { title: "Post 2", url: "p2" },
+  { title: "Post 3", url: "p3" }
 ];
 
 if (article) {
