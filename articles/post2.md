@@ -1,3 +1,0 @@
-# Post 2
-
-[Previous (Post 1)](?ar=post1)
