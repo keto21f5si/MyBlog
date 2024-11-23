@@ -11,7 +11,7 @@ const params = new URLSearchParams(window.location.search);
 const article = params.get("ar");
 
 const articleList = [
-  { title: "Post 1", url: "p1" },
+  { title: "初投稿", url: "p1" },
   { title: "Post 2", url: "p2" },
   { title: "Post 3", url: "p3" }
 ];
