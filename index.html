@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>keto’s blog</title>
+    <style>
+      body {
+        -webkit-text-size-adjust: 100%;
+        font-family: "Arial", sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333;
+        text-align: center;
+      }
+      header {
+        background-color: #05f;
+        color: #fff;
+        padding: 1rem 0;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 43px;
+        color: #fff;
+      }
+      main {
+        min-height: calc(100vh - 3rem);
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+        background-color: #fff;
+        box-shadow: 0 4px 6px #0001;
+        border-radius: 8px;
+        padding: 2rem;
+      }
+      main h1 {
+        font-size: 40px;
+        margin-bottom: 1rem;
+        color: #08f;
+      }
+      main h2 {
+        font-size: 30px;
+      }
+      main img {
+        display: block;
+        width: 150px;
+        height: 150px;
+        margin: 1rem auto;
+        border-radius: 50%;
+        border: 5px solid #05f;
+      }
+      main p {
+        font-size: 18px;
+        margin-bottom: 2rem;
+      }
+      a {
+        font-size: 18px;
+        color: #08f;
+        text-decoration: none;
+        font-weight: 500;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      #article_list {
+        list-style-type: none;
+        padding: 0;
+      }
+      #article_list li {
+        margin-bottom: 1.5rem;
+      }
+      #article_list li a {
+        font-size: 23px;
+        padding: 0.5rem;
+        display: inline-block;
+        background-color: #eee;
+        border-radius: 4px;
+        box-shadow: 0 0 5px #1115;
+        transition: background-color 0.3s;
+      }
+      #article_list li a:hover {
+        background-color: #eef;
+      }
+      #links {
+        list-style-type: none;
+        font-family: monospace;
+        padding: 3rem;
+        max-width: 500px;
+        line-height: 2.5;
+        text-align: left;
+      }
+      #link li {
+        text-align: left;
+      }
+      #links li::before {
+        content: "▶︎ ";
+        font-size: 20px;
+        font-weight: 500;
+      }
+      footer {
+        padding: 1rem 0;
+        background-color: #f0f0f0;
+        font-size: 0.8rem;
+        margin-top: 2rem;
+        color: #666;
+      }
+      footer small {
+        font-size: 16px;
+        display: block;
+        line-height: 1.4;
+      }
+    </style>
+    <link rel="icon" type="image/svg+xml" href="./keto.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/github-markdown-css/github-markdown-light.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>keto’s blog</h1>
+    </header>
+    <p><a href="./">[HOME]</a></p>
+    <main>
+      <h1>welcome to my blog</h1>
+      <img src="./keto.svg" alt="keto’s icon" id="icon" />
+      <p>主に技術系の記事を投稿しています。</p>
+      <h2>Articles</h2>
+      <ul id="article_list"></ul>
+      <noscript>
+        <h2>JavaScriptを有効にしてください。</h2>
+      </noscript>
+      <h2>Links</h2>
+      <ul id="links">
+        <li><a href="https://keto21.f5.si/">ProfileSite</a></li>
+        <li><a href="https://ch.keto21.f5.si/">ChatRoom</a></li>
+        <li><a href="https://github.com/keto21f5si/">GitHub</a></li>
+      </ul>
+    </main>
+    <footer>
+      <small>
+        Created by keto.<br />
+        Hosted by Cloudflare Pages.<br />
+        All rights reserved.<br />
+        &copy; 2024 keto
+      </small>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
